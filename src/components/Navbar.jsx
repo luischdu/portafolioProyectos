@@ -67,6 +67,8 @@ const StyleButtonCollapse = styled(Button)`
     }
     @media (max-width: 768px) {
         display: block;
+        border: solid 1.5px #33ccff;
+        color: #33ccff;
     }
 `
 
@@ -80,10 +82,10 @@ class NavH extends Component {
         return (
             <NavbarStyle collapseOnSelect expand="lg" variant="dark" id="navbar">
                 <StyledNavBarHeart className="animate__animated animate__heartBeat animate__slower" href="#welcome-section">
-                    
+
                 </StyledNavBarHeart>
                 <Navbar.Brand>
-                    <a href="HV_LuisMiguelChávezDuque.pdf" download="" style={{textDecoration:"none"}}>
+                    <a href="HV_LuisMiguelChávezDuque.pdf" download="" style={{ textDecoration: "none" }}>
                         <StyleButtonCollapse variant="outline-danger">Descargar Curriculum</StyleButtonCollapse>
                     </a>
                 </Navbar.Brand>
@@ -97,7 +99,7 @@ class NavH extends Component {
                         <StyledNavLink href="#Contact"><BodyRegular2 name="Contacto" /></StyledNavLink>
                     </Nav>
                     <ButtonStyle>
-                        <a href="HV_LuisMiguelChávezDuque.pdf" download="" style={{textDecoration:"none"}}>
+                        <a href="HV_LuisMiguelChávezDuque.pdf" download="" style={{ textDecoration: "none" }}>
                             <StyleButton variant="outline-danger">Descargar Curriculum</StyleButton>
                         </a>
                     </ButtonStyle>
