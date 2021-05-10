@@ -61,7 +61,6 @@ const StyledButton = styled(Button)`
         height: 64px;
     }
 `
-
 const StyledIcon = styled(FontAwesomeIcon)`
     width: 24px;
     height: 24px; 
