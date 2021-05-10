@@ -97,7 +97,7 @@ class NavH extends Component {
                         <StyledNavLink href="#welcome"><BodyRegular2 name="Hola" /></StyledNavLink>
                         <StyledNavLink href="#Projects"><BodyRegular2 name="Proyectos" /></StyledNavLink>
                         <StyledNavLink href="#Service"><BodyRegular2 name="Servicios" /></StyledNavLink>
-                        <StyledNavLink href="#Testimonios"><BodyRegular2 name="Testimonials" /></StyledNavLink>
+                        <StyledNavLink href="#Testimonials"><BodyRegular2 name="Testimonios" /></StyledNavLink>
                         <StyledNavLink href="#Contact"><BodyRegular2 name="Contacto" /></StyledNavLink>
                     </Nav>
                     <ButtonStyle>
