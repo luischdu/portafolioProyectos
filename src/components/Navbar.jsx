@@ -62,6 +62,8 @@ const StyleButtonCollapse = styled(Button)`
     width: 206px;
     height: 48px;
     display:none;
+    border: solid 1.5px #33ccff;
+        color: #33ccff;
     &:hover ${StyleButtonCollapse} {
     background-color: #33ccff;
     }

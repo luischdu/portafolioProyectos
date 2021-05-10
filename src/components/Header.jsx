@@ -22,6 +22,7 @@ const H1Style = styled.h1`
 
 const ImgStyle = styled(Image)`
     height: 28.8rem;
+    width: 25rem;
     margin-top:3.12rem;
 `
 
