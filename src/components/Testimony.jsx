@@ -39,7 +39,7 @@ class Testimony extends Component {
                             <ProfileStyle src={this.state.imagen} alt="Img usuario" />
                         </Col>
                         <Col>
-                            <h1 style={{ color: "#33ccff"}}><PStyle name={this.state.names} /></h1>
+                            <h1 style={{ color: "#ffffff"}}><PStyle name={this.state.names} /></h1>
                         </Col>
                     </Row2>
                     <p className = "intento">{this.state.testimonios} </p>

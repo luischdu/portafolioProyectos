@@ -22,11 +22,12 @@ import { Headline2, Headline4 } from '../styles/Headline'
 import { Container2, Row2 } from '../styles/RowContainer'
 //Imagenes
 import Banner from '../images/Escritorio.png'
-import ImgHombre from '../images/perfilHombre.jpeg'
-import ImgHombre2 from '../images/perfilHombre2.png'
-import ImgHombre3 from '../images/perfilHombre3.png'
-import ImgMujer from '../images/perfilMujer.png'
-import ImgMujer2 from '../images/perfilMujer2.png'
+import JAntonio from '../images/JAntonio.png'
+import AFlores from '../images/AFlores.png'
+import DRobertson from '../images/DRobertson.png'
+import JCooper from '../images/JCooper.png'
+import EPena from '../images/EPena.png'
+import GHawkins from '../images/GHawkins.png'
 import Img from '../images/appAdopcion.png'
 import Img2 from '../images/principeFresco.png'
 
@@ -73,20 +74,15 @@ const StyledIcon = styled(FontAwesomeIcon)`
     }
 `
 
-const StyledTitulo1 = styled.h1`
+const H1Style = styled.h1`
     display:block;
+    color: white;
     margin-bottom:48px;
     @media (max-width: 768px) {
         display:none;
     }
 `
-const StyledTitulo2 = styled.h1`
-    display:none;
-    @media (max-width: 768px) {
-        display:block;
-        margin-bottom:24px;
-    }
-`
+
 
 const App = () => {
     return (
@@ -109,18 +105,17 @@ const App = () => {
                 <Service />
             </Services>
             <Testimonials>
-                <StyledTitulo1><Headline2 name="Testimonios" /></StyledTitulo1>
-                <StyledTitulo2><Headline4 name="Testimonios" /></StyledTitulo2>
+                <H1Style><Headline2 name="Testimonios" /></H1Style>
                 <Container2 fluid>
                     <Row2>
-                        <Testimony personas={["Juana Gomez", "Tengo algunos años trabajando con Javascript y aún así aprendí varias cosas importantes de Sara y como utiliza Javascript en el día a día.", ImgMujer]} />
-                        <Testimony personas={["Dilan Maturana", "Me gusto ver el porqué de las cosas del core de React, saber la magia que ocurre por detrás, excelente compañera Sara gran vocación.", ImgHombre]} />
-                        <Testimony personas={["Juan Martinez", "Ayuda a entender el porqué de las cosas, lo cual nos da el poder de aprovechar mejor el lenguaje y las herramientas que tenemos.", ImgHombre2]} />
+                        <Testimony personas={["Juan Antonio", "Tengo algunos años trabajando con Javascript y aún así aprendí varias cosas importantes de Luis y como utiliza Javascript en el día a día.", JAntonio]} />
+                        <Testimony personas={["Albert Flores", "Me gusto ver el porqué de las cosas del core de React, saber la magia que ocurre por detrás, excelente compañera Luis gran vocación.", AFlores  ]} />
+                        <Testimony personas={["Darlene Robertson", "Ayuda a entender el porqué de las cosas, lo cual nos da el poder de aprovechar mejor el lenguaje y las herramientas que tenemos.", DRobertson  ]} />
                     </Row2>
                     <Row2>
-                        <Testimony personas={["Carolina Gutierrez", "La forma como realiza y trabaja los temas Sara, me ha ayudado a comprender y sacarle el mayor provecho a HTML y CSS.", ImgMujer2]} />
-                        <Testimony personas={["Suana Pino", "Sara ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses.", ImgMujer]} />
-                        <Testimony personas={["Manuel Orozco", "Sara ha superado mis expectativas desde el diseño hasta el desarrollo.", ImgHombre3]} />
+                        <Testimony personas={["Jane Cooper", "La forma como realiza y trabaja los temas Luis, me ha ayudado a comprender y sacarle el mayor provecho a HTML y CSS.", JCooper ]} />
+                        <Testimony personas={["Eleanor Pena", "Luis ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses.", EPena ]} />
+                        <Testimony personas={["Guy Hawkins", "Luis ha superado mis expectativas desde el diseño hasta el desarrollo.", GHawkins ]} />
                     </Row2>
                 </Container2>
             </Testimonials>
